@@ -1,32 +1,286 @@
 {
 	"data": [
-		[
-			"Muhammad Davi, S.Kom., M.Cs.",
-			"Umri Erdiansyah, S.Kom., M.Kom.",
-			"Afla Nevrisa, S.Kom., M.Kom.",
-			"Aswandi, S.Kom., M.Kom.",
-			"Anwar, S.Si., M.Cs."
-		],
-		[
-			"Amri, SST. MT",
-			"Hari Toha Hidayat, S.Si., M.Cs.",
-			"Husaini, S.Si., M.IT",
-			"Indrawati, SST., M.T.",
-			"Atthariq, SST., M.T."
-		],
-		[
-			"Dra. Jamilah, M.Pd",
-			"Muhammad Nasir, ST. MT",
-			"Fachri Yanuar Rudi F, SST, MT",
-			"Mursyidah, ST. MT",
-			"Mahlil, S.Pd.MA"
-		],
-		[
-			"Guntur Syahputra, S.Kom., M.Kom",
-			"Safriadi, ST.M.Kom",
-			"Ilham Safar, S.S.T., M.Kom",
-			"Nanda Saputri, S.S.T., M.T",
-			"Novira Dwina, S.S.T., M.T"
-		]
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "1",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9989",
+				"nama": "Donna Snider"
+			},
+			"pembimbing": {
+				"pertama": "Muhammad Davi, S.Kom., M.Cs.",
+				"kedua": "Umri Erdiansyah, S.Kom., M.Kom."
+			},
+			"ketua": "Afla Nevrisa, S.Kom., M.Kom.",
+			"sekretaris": "Aswandi, S.Kom., M.Kom.",
+			"penguji": {
+				"pertama": "Anwar, S.Si., M.Cs.",
+				"kedua": "Amri, SST. MT",
+				"ketiga": "Hari Toha Hidayat, S.Si., M.Cs."
+			},
+			"status": "<span class=\"badge badge-pill badge-success\">Selesai</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "2",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Michael Bruce"
+			},
+			"pembimbing": {
+				"pertama": "Husaini, S.Si., M.IT",
+				"kedua": "Indrawati, SST., M.T."
+			},
+			"ketua": "Atthariq, SST., M.T.",
+			"sekretaris": "Dra. Jamilah, M.Pd",
+			"penguji": {
+				"pertama": "Muhammad Nasir, ST. MT",
+				"kedua": "Fachri Yanuar Rudi F, SST, MT",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-warning\">Sedang</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "3",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Diego Oña"
+			},
+			"pembimbing": {
+				"pertama": "Mursyidah, ST. MT",
+				"kedua": "Novira Dwina, S.S.T., M.T"
+			},
+			"ketua": "Guntur Syahputra, S.Kom., M.Kom",
+			"sekretaris": "Safriadi, ST.M.Kom",
+			"penguji": {
+				"pertama": "Ilham Safar, S.S.T., M.Kom",
+				"kedua": "Nanda Saputri, S.S.T., M.T",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-primary\">Tunggu</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "1",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9989",
+				"nama": "Donna Snider"
+			},
+			"pembimbing": {
+				"pertama": "Muhammad Davi, S.Kom., M.Cs.",
+				"kedua": "Umri Erdiansyah, S.Kom., M.Kom."
+			},
+			"ketua": "Afla Nevrisa, S.Kom., M.Kom.",
+			"sekretaris": "Aswandi, S.Kom., M.Kom.",
+			"penguji": {
+				"pertama": "Anwar, S.Si., M.Cs.",
+				"kedua": "Amri, SST. MT",
+				"ketiga": "Hari Toha Hidayat, S.Si., M.Cs."
+			},
+			"status": "<span class=\"badge badge-pill badge-success\">Selesai</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "2",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Michael Bruce"
+			},
+			"pembimbing": {
+				"pertama": "Husaini, S.Si., M.IT",
+				"kedua": "Indrawati, SST., M.T."
+			},
+			"ketua": "Atthariq, SST., M.T.",
+			"sekretaris": "Dra. Jamilah, M.Pd",
+			"penguji": {
+				"pertama": "Muhammad Nasir, ST. MT",
+				"kedua": "Fachri Yanuar Rudi F, SST, MT",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-warning\">Sedang</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "3",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Diego Oña"
+			},
+			"pembimbing": {
+				"pertama": "Mursyidah, ST. MT",
+				"kedua": "Novira Dwina, S.S.T., M.T"
+			},
+			"ketua": "Guntur Syahputra, S.Kom., M.Kom",
+			"sekretaris": "Safriadi, ST.M.Kom",
+			"penguji": {
+				"pertama": "Ilham Safar, S.S.T., M.Kom",
+				"kedua": "Nanda Saputri, S.S.T., M.T",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-primary\">Tunggu</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "1",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9989",
+				"nama": "Donna Snider"
+			},
+			"pembimbing": {
+				"pertama": "Muhammad Davi, S.Kom., M.Cs.",
+				"kedua": "Umri Erdiansyah, S.Kom., M.Kom."
+			},
+			"ketua": "Afla Nevrisa, S.Kom., M.Kom.",
+			"sekretaris": "Aswandi, S.Kom., M.Kom.",
+			"penguji": {
+				"pertama": "Anwar, S.Si., M.Cs.",
+				"kedua": "Amri, SST. MT",
+				"ketiga": "Hari Toha Hidayat, S.Si., M.Cs."
+			},
+			"status": "<span class=\"badge badge-pill badge-success\">Selesai</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "2",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Michael Bruce"
+			},
+			"pembimbing": {
+				"pertama": "Husaini, S.Si., M.IT",
+				"kedua": "Indrawati, SST., M.T."
+			},
+			"ketua": "Atthariq, SST., M.T.",
+			"sekretaris": "Dra. Jamilah, M.Pd",
+			"penguji": {
+				"pertama": "Muhammad Nasir, ST. MT",
+				"kedua": "Fachri Yanuar Rudi F, SST, MT",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-warning\">Sedang</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "3",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Diego Oña"
+			},
+			"pembimbing": {
+				"pertama": "Mursyidah, ST. MT",
+				"kedua": "Novira Dwina, S.S.T., M.T"
+			},
+			"ketua": "Guntur Syahputra, S.Kom., M.Kom",
+			"sekretaris": "Safriadi, ST.M.Kom",
+			"penguji": {
+				"pertama": "Ilham Safar, S.S.T., M.Kom",
+				"kedua": "Nanda Saputri, S.S.T., M.T",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-primary\">Tunggu</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "1",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9989",
+				"nama": "Donna Snider"
+			},
+			"pembimbing": {
+				"pertama": "Muhammad Davi, S.Kom., M.Cs.",
+				"kedua": "Umri Erdiansyah, S.Kom., M.Kom."
+			},
+			"ketua": "Afla Nevrisa, S.Kom., M.Kom.",
+			"sekretaris": "Aswandi, S.Kom., M.Kom.",
+			"penguji": {
+				"pertama": "Anwar, S.Si., M.Cs.",
+				"kedua": "Amri, SST. MT",
+				"ketiga": "Hari Toha Hidayat, S.Si., M.Cs."
+			},
+			"status": "<span class=\"badge badge-pill badge-success\">Selesai</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "2",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Michael Bruce"
+			},
+			"pembimbing": {
+				"pertama": "Husaini, S.Si., M.IT",
+				"kedua": "Indrawati, SST., M.T."
+			},
+			"ketua": "Atthariq, SST., M.T.",
+			"sekretaris": "Dra. Jamilah, M.Pd",
+			"penguji": {
+				"pertama": "Muhammad Nasir, ST. MT",
+				"kedua": "Fachri Yanuar Rudi F, SST, MT",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-warning\">Sedang</span>"
+		},
+		{
+			"waktu": {
+				"tanggal": "Sabtu, 10 Mei 2023",
+				"sesi": "3",
+				"tempat": "Ruang 1"
+			},
+			"mahasiswa": {
+				"nim": "9889",
+				"nama": "Diego Oña"
+			},
+			"pembimbing": {
+				"pertama": "Mursyidah, ST. MT",
+				"kedua": "Novira Dwina, S.S.T., M.T"
+			},
+			"ketua": "Guntur Syahputra, S.Kom., M.Kom",
+			"sekretaris": "Safriadi, ST.M.Kom",
+			"penguji": {
+				"pertama": "Ilham Safar, S.S.T., M.Kom",
+				"kedua": "Nanda Saputri, S.S.T., M.T",
+				"ketiga": "Mahlil, S.Pd.MA"
+			},
+			"status": "<span class=\"badge badge-pill badge-primary\">Tunggu</span>"
+		}
 	]
 }
+
+
+
+
+
+
