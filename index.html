@@ -49,13 +49,12 @@
             <th>Ruang</th>
             <th>NIM</th>
             <th>Nama</th>
-            <th>Pembimbing I</th>
-            <th>Pembimbing II</th>
+            <th>DPU</th>
+            <th>DPP</th>
             <th>Ketua</th>
             <th>Sekretaris</th>
             <th>Penguji I</th>
             <th>Penguji II</th>
-            <th>Penguji III</th>
             <th>Status</th>
         </tr>
         </thead>
@@ -66,23 +65,26 @@
             <th>Ruang</th>
             <th>NIM</th>
             <th>Nama</th>
-            <th>Pembimbing I</th>
-            <th>Pembimbing II</th>
+            <th>DPU</th>
+            <th>DPP</th>
             <th>Ketua</th>
             <th>Sekretaris</th>
             <th>Penguji I</th>
             <th>Penguji II</th>
-            <th>Penguji III</th>
             <th>Status</th>
         </tr>
         </tfoot>
     </table>
     <strong>Keterangan:</strong> <br>
-    Sesi 1 = 08.00 - 10.00 <br>
-    Sesi 2 = 10.00 - 12.00 <br>
-    Sesi 3 = 13.00 - 15.00 <br>
-    Sesi 4 = 15.00 - 17.00 <br>
-    Sesi 5 = 17.00 - 19.00 <br>
+    Sesi 1 = 08.00 - 08.50 <br>
+    Sesi 2 = 09.00 - 09.50 <br>
+    Sesi 3 = 10.00 - 10.50 <br>
+    Sesi 4 = 11.00 - 11.50 <br>
+    Istirahat = 12.00 - 12.50 <br>
+    Sesi 5 = 13.00 - 13.50 <br>
+    Sesi 6 = 14.00 - 14.50 <br>
+    Sesi 7 = 15.00 - 15.50 <br>
+    Sesi 8 = 16.00 - 16.00 <br>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -99,7 +101,18 @@
             deferRender: true,      // jika data banyak yang diload sesuia kebutuhan
             processing: true,
             columns: [
-                { data: 'mahasiswa.nama' },
+                { data: 'tanggal' },
+                { data: 'sesi.id' },
+                { data: 'ruangan.nama_ruangan' },
+                { data: 'mahasiswa.nim' },
+                { data: 'mahasiswa.nama' },                
+                { data: 'dpu.nama_lengkap' },
+                { data: 'dpp.nama_lengkap' },
+                { data: 'ketua.nama_lengkap' },                
+                { data: 'sekretaris.nama_lengkap' },                
+                { data: 'penguji1.nama_lengkap' },                
+                { data: 'penguji2.nama_lengkap' },                
+                { data: 'status' },                
             ],
             lengthChange: false,
             dom: 'Bfrtip',
