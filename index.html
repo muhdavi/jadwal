@@ -95,23 +95,11 @@
 <script>
     $(document).ready(function () {
         $('#daftar').DataTable({
-            ajax: 'dataset.json',
+            ajax: 'https://siperi.onesoulsolution.com/api/ujians',
             deferRender: true,      // jika data banyak yang diload sesuia kebutuhan
             processing: true,
             columns: [
-                { data: 'waktu.tanggal' },
-                { data: 'waktu.sesi' },
-                { data: 'waktu.tempat' },
-                { data: 'mahasiswa.nim' },
                 { data: 'mahasiswa.nama' },
-                { data: 'pembimbing.pertama' },
-                { data: 'pembimbing.kedua' },
-                { data: 'ketua' },
-                { data: 'sekretaris' },
-                { data: 'penguji.pertama' },
-                { data: 'penguji.kedua' },
-                { data: 'penguji.ketiga' },
-                { data: 'status'},
             ],
             lengthChange: false,
             dom: 'Bfrtip',
