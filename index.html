@@ -31,6 +31,9 @@
             .prodi {
                 font-size: .8rem;
             }
+            .w-tanggal {
+                width: 100px;
+            }
         }
     </style>
 </head>
@@ -80,6 +83,7 @@
         </tfoot>
     </table>
     <strong>Keterangan:</strong> <br>
+    <strong>Sesi</strong> <br>
     Sesi 1 = 08.00 - 08.50 <br>
     Sesi 2 = 09.00 - 09.50 <br>
     Sesi 3 = 10.00 - 10.50 <br>
@@ -89,6 +93,8 @@
     Sesi 7 = 14.00 - 14.50 <br>
     Sesi 8 = 15.00 - 15.50 <br>
     Sesi 9 = 16.00 - 16.50 <br>
+    <strong>Ruangan</strong> <br>
+    TIK.112 = Lab Internet of Things di Gedung TIK Lantai I Sayap Kanan
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -119,6 +125,9 @@
             ],
             lengthChange: false,
             dom: 'Bfrtip',
+            scrollY: '400px',
+            scrollCollapse: true,
+            paging: false,
             buttons: [
                 {
                     extend: 'colvis',
