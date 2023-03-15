@@ -23,8 +23,14 @@
             float: right;
         }
 
-        .w-20 {
-            width: 150px;
+        .w-tanggal {
+            width: 80px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .prodi {
+                font-size: .8rem;
+            }
         }
     </style>
 </head>
@@ -37,14 +43,14 @@
                 <img src="img/logo.png" alt="PNL" class="w-25">
             </a>
         </div>
-        <div class="fs-4 font-weight-bold">Pogram Studi Teknologi Rekayasa Komputer Jaringan</div>
+        <div class="fs-4 font-weight-bold prodi">Pogram Studi Teknologi Rekayasa Komputer Jaringan</div>
         <div class="fs-4 font-weight-bold">Jurusan Teknologi Informasi dan Kompuer</div>
     </header>
 
     <table id="daftar" class="table table-striped table-responsive-sm" style="width:100%">
         <thead class="thead-dark">
         <tr>
-            <th class="w-20">Tanggal</th>
+            <th class="w-tanggal">Tanggal</th>
             <th>Sesi</th>
             <th>Ruang</th>
             <th>NIM</th>
@@ -59,7 +65,7 @@
         </thead>
         <tfoot class="thead-dark">
         <tr>
-            <th class="w-20">Tanggal</th>
+            <th class="w-tanggal">Tanggal</th>
             <th>Sesi</th>
             <th>Ruang</th>
             <th>NIM</th>
