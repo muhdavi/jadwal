@@ -62,13 +62,13 @@
             <th>DPP</th>
             <th>Ketua</th>
             <th>Sekretaris</th>
+            <!--
             <th>Pembahas 1</th>
             <th>Pembahas 2</th>
-            <!--
+            -->
             <th>Penguji 1</th>
             <th>Penguji 2</th>
             <th>Penguji 3</th>
-            -->
         </tr>
         </thead>
         <tfoot class="thead-dark">
@@ -82,13 +82,13 @@
             <th>DPP</th>
             <th>Ketua</th>
             <th>Sekretaris</th>
+            <!--
             <th>Pembahas 1</th>
             <th>Pembahas 2</th>
-            <!--
+            -->
             <th>Penguji 1</th>
             <th>Penguji 2</th>
             <th>Penguji 3</th>
-            -->
         </tr>
         </tfoot>
     </table>
@@ -128,7 +128,7 @@
 <script>
     $(document).ready(function () {
         $('#daftar').DataTable({
-            ajax: 'https://siperi.onesoulsolution.com/api/ujians',
+            ajax: 'https://siperi.muhdavi.com/api/ujians',
             deferRender: true,      // jika data banyak yang diload sesuia kebutuhan
             processing: true,
             columns: [
@@ -142,7 +142,8 @@
                 { data: 'ketua.nama_lengkap' },
                 { data: 'sekretaris.nama_lengkap' },
                 { data: 'p1.nama_lengkap' },                
-                { data: 'p2.nama_lengkap' },
+                { data: 'p2.nama_lengkap' },                
+                { data: 'p3.nama_lengkap' },
             ],
             lengthChange: false,
             dom: 'Bfrtip',
