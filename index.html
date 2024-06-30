@@ -108,13 +108,13 @@
     -->
     <!-- Skripsi -->
     <strong>Sesi</strong> <br>
-    Sesi 1 = 08.00 - 09.40 <br>
-    Sesi 2 = 10.00 - 11.40 <br>
-    Sesi 3 = 12.00 - 13.40 <br>
+    Sesi 1 = 08.00 - 10.00 <br>
+    Sesi 2 = 10.20 - 12.20 <br>
     Istirahat <br>
-    Sesi 4 = 14.00 - 15.40 <br>
-    Sesi 5 = 16.00 - 17.40 <br>
+    Sesi 4 = 13.30 - 15.30 <br>
+    Sesi 5 = 15.50 - 17.50 <br>
     <strong>Ruangan</strong> <br>
+    TIK.300A = Ruang Rapat
     TIK.300B = Ruang Seminar
 </div>
 
@@ -128,7 +128,7 @@
 <script>
     $(document).ready(function () {
         $('#daftar').DataTable({
-            ajax: 'https://siperi.muhdavi.com/api/ujians',
+            ajax: 'https://siperi.muhdavi.com/api/jadwals',
             deferRender: true,      // jika data banyak yang diload sesuia kebutuhan
             processing: true,
             columns: [
